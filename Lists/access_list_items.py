@@ -3,4 +3,14 @@
   # Tuple, Set, and Dictionary
 
 obj = ["apple", "banana", "cherry"]
-print(obj)
+print(obj, "\n")
+
+
+# my own practice
+obj1 = input("Name a vegetable: ")
+obj2 = []
+if obj1 != obj1.isnumeric():
+    obj2.append(obj1)
+    
+print(obj2)
+    
