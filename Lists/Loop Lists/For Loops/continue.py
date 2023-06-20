@@ -6,6 +6,8 @@ for x in veggies:
     print(x)      # it skipped 'peppers' and continued on to the end of the list - you stopped the 'peppers' iteration
 print("\n")
 
+
+# the 'continue' and print statement are reversed in this example - see how the output changes
 fruits = ["apples", "banana", "pear", "watermelon", "papaya"]
 for y in fruits:
     if y == "watermelon":
