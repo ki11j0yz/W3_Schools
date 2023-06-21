@@ -7,3 +7,4 @@ print("\n")
 
 for i in range(len(mylist)):
     print(mylist[i])
+# the iterable above prints out [0, 1, 2]
