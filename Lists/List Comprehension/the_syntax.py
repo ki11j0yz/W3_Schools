@@ -2,9 +2,11 @@
 
 # **Condition: 
   # the condition is like a filter that only accepts the items that valuate to True
+
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newfruit = [x for x in fruits if x != "apple"]
 print(newfruit)
+
 # the condition [if x != "apple"] will return True for all elements other than "apple", making the new list contain everythin accept "apple"
 
 # the condition is optional and can be omitted:
@@ -15,7 +17,7 @@ print()
 
 
 # **Iterable
-# the iterable can be any iterable object, liek a list, tuple, set or dictionary - or even a string
+# the iterable can be any iterable object, like a list, tuple, set or dictionary - or even a string
 # you can use the range() to create an iterable:
 newlist = [x for x in range(10)]
 print(newlist)
