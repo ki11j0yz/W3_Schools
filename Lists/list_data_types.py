@@ -1,4 +1,14 @@
 # items in a list can be of any data type, including "none"
+# Data Types: 
+    # int - integer
+    # str - string
+    # float - decimal
+    # list
+    # tuple
+    # dict - dictionary
+    # boolean - True/False
+    # none
+
 # the overriding type is list, but you can list the data type of any given element at its index: 
 
 list1 = ["apple", "banana", "cherry"]
